@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1806F9D7284A51200000D46B /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F9D6284A51200000D46B /* LocationsDataService.swift */; };
+		1806F9D9284A55A30000D46B /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F9D8284A55A30000D46B /* LocationsView.swift */; };
+		1806F9DB284A589A0000D46B /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F9DA284A589A0000D46B /* LocationViewModel.swift */; };
+		1806F9DD284A64930000D46B /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F9DC284A64930000D46B /* LocationListView.swift */; };
+		1806F9DF284B7AFD0000D46B /* LocationPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F9DE284B7AFD0000D46B /* LocationPreview.swift */; };
+		1806F9E1284DFB020000D46B /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F9E0284DFB020000D46B /* LocationMapAnnotationView.swift */; };
+		1806F9E3284DFF800000D46B /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F9E2284DFF800000D46B /* LocationDetailView.swift */; };
 		18B3402A2848FEEE0032FDC6 /* SwiftUiMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B340292848FEEE0032FDC6 /* SwiftUiMapApp.swift */; };
 		18B3402C2848FEEE0032FDC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3402B2848FEEE0032FDC6 /* ContentView.swift */; };
-		18B3402E2848FEF00032FDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B3402D2848FEF00032FDC6 /* Assets.xcassets */; };
 		18B340312848FEF00032FDC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B340302848FEF00032FDC6 /* Preview Assets.xcassets */; };
+		18B34038284900500032FDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B34037284900500032FDC6 /* Assets.xcassets */; };
+		18B3403D284A26950032FDC6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3403C284A26950032FDC6 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1806F9D6284A51200000D46B /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		1806F9D8284A55A30000D46B /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		1806F9DA284A589A0000D46B /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		1806F9DC284A64930000D46B /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		1806F9DE284B7AFD0000D46B /* LocationPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreview.swift; sourceTree = "<group>"; };
+		1806F9E0284DFB020000D46B /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		1806F9E2284DFF800000D46B /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		1806F9E4284E1D9C0000D46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		18B340262848FEEE0032FDC6 /* SwiftUiMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B340292848FEEE0032FDC6 /* SwiftUiMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMapApp.swift; sourceTree = "<group>"; };
 		18B3402B2848FEEE0032FDC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		18B3402D2848FEF00032FDC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B340302848FEF00032FDC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18B34037284900500032FDC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B3403C284A26950032FDC6 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1806F9D5284A50C80000D46B /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				1806F9D6284A51200000D46B /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
 		18B3401D2848FEEE0032FDC6 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +76,14 @@
 		18B340282848FEEE0032FDC6 /* SwiftUiMap */ = {
 			isa = PBXGroup;
 			children = (
+				1806F9E4284E1D9C0000D46B /* Info.plist */,
+				1806F9D5284A50C80000D46B /* DataServices */,
+				18B3403A284A26580032FDC6 /* Views */,
+				18B3403B284A26630032FDC6 /* ViewModels */,
+				18B34039284A26350032FDC6 /* Models */,
 				18B340292848FEEE0032FDC6 /* SwiftUiMapApp.swift */,
 				18B3402B2848FEEE0032FDC6 /* ContentView.swift */,
-				18B3402D2848FEF00032FDC6 /* Assets.xcassets */,
+				18B34037284900500032FDC6 /* Assets.xcassets */,
 				18B3402F2848FEF00032FDC6 /* Preview Content */,
 			);
 			path = SwiftUiMap;
@@ -65,6 +95,34 @@
 				18B340302848FEF00032FDC6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18B34039284A26350032FDC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18B3403C284A26950032FDC6 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18B3403A284A26580032FDC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1806F9D8284A55A30000D46B /* LocationsView.swift */,
+				1806F9DC284A64930000D46B /* LocationListView.swift */,
+				1806F9DE284B7AFD0000D46B /* LocationPreview.swift */,
+				1806F9E0284DFB020000D46B /* LocationMapAnnotationView.swift */,
+				1806F9E2284DFF800000D46B /* LocationDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18B3403B284A26630032FDC6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1806F9DA284A589A0000D46B /* LocationViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B34038284900500032FDC6 /* Assets.xcassets in Resources */,
 				18B340312848FEF00032FDC6 /* Preview Assets.xcassets in Resources */,
-				18B3402E2848FEF00032FDC6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1806F9D7284A51200000D46B /* LocationsDataService.swift in Sources */,
+				1806F9E1284DFB020000D46B /* LocationMapAnnotationView.swift in Sources */,
+				1806F9DB284A589A0000D46B /* LocationViewModel.swift in Sources */,
 				18B3402C2848FEEE0032FDC6 /* ContentView.swift in Sources */,
+				1806F9DF284B7AFD0000D46B /* LocationPreview.swift in Sources */,
+				1806F9D9284A55A30000D46B /* LocationsView.swift in Sources */,
+				1806F9DD284A64930000D46B /* LocationListView.swift in Sources */,
+				18B3403D284A26950032FDC6 /* Location.swift in Sources */,
+				1806F9E3284DFF800000D46B /* LocationDetailView.swift in Sources */,
 				18B3402A2848FEEE0032FDC6 /* SwiftUiMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +336,12 @@
 				DEVELOPMENT_TEAM = 83BQ9D2XVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUiMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +366,12 @@
 				DEVELOPMENT_TEAM = 83BQ9D2XVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUiMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
